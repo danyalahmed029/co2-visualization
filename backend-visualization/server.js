@@ -6,7 +6,7 @@ const cors = require('cors');
 const app = express();
 const server = http.createServer(app);
 app.use(cors());
-const io = socketIO(server, {cors: {origin: "*"}});
+const io = socketIO(server, {path: '/api',cors: {origin: "*"}});
 
 // Serve static files from the "public" directory
 app.use(express.static('public'));
