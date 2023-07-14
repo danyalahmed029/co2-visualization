@@ -12,7 +12,7 @@ const co2Measurement = (co2Value) => ({
 });
 
 // Socket.IO configuration
-const socket = io('localhost:3000');
+const socket = io('ec2-13-51-198-147.eu-north-1.compute.amazonaws.com', {path: "/api"});
 
 // Redux middleware for handling socket events
 const socketMiddleware = (store) => (next) => (action) => {
