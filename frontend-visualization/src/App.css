@@ -1,0 +1,33 @@
+Copy code
+.co2-visualization {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.co2-visualization-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.co2-value,
+.air-quality {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.air-quality {
+  color: #333;
+}
+
+.good-quality {
+  color: green;
+}
+
+.average-quality {
+  color: orange;
+}
+
+.bad-quality {
+  color: red;
+}
